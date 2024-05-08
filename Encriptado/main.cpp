@@ -22,7 +22,7 @@ int main() {
             }
 
             std::string textoOriginal;
-            std::getline(archivoEntrada, textoOriginal);
+            std::getline(archivoEntrada, textoOriginal, '\0');
 
             int modulo = 256;
             int clavePublica;
